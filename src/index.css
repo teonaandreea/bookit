@@ -1,0 +1,33 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.calendar{
+    display: grid;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.month{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.date{
+    background-color: cadetblue;
+    padding: 10px 5px;
+}
+.date--today{
+    background-color: #96d6d8;
+}
+.date--active{
+    filter: brightness(70%);
+}
+
+.day{
+    padding: 10px 5px;
+}
